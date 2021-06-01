@@ -653,7 +653,7 @@ console.log( calc.calculate('3 + 7') ); // 10
 Второй шаг — добавить калькулятору метод ```addMethod(name, func)```, который учит калькулятор новой операции. Он получает имя операции ```name``` и функцию от двух аргументов ```func(a, b)```, которая должна её реализовывать. Например, добавим операции умножить , поделить ```/``` и возвести в степень ```**```:
 
 ```js
-let powerCalc = new Calculator;
+var powerCalc = new Calculator;
 powerCalc.addMethod('*', function(a, b) {
   return a * b;
 });

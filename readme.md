@@ -664,7 +664,7 @@ powerCalc.addMethod('**', function(a, b) {
   return Math.pow(a, b);
 });
 
-var result = powerCalc.calculate('2 ** 3');
+let result = powerCalc.calculate('2 ** 3');
 console.log( result ); // 8
 ```
 
